@@ -1,1 +1,72 @@
-OK
+.conexion-bg{
+    background-color: #111b4536;
+    
+}
+
+.conteneur-formulaire{
+    border: 2px solid rgb(233, 223, 223);
+    background-color: rgba(255, 255, 255, 0.944);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px whitesmoke;
+    height:80%;
+}
+.logo_connexion{
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+}
+.form_inscrit{
+    min-height: 400px;
+    max-height: 700px;
+    margin: auto;
+
+}
+
+.connexion-img {
+    max-width:20%;
+    height: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 80px;
+}
+
+.alligner-adroit{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.navbar-brand img{
+    width: 30%;
+}
+
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+    
+
+
+
+.Profil{
+    height:100%;
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.Profil_image{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: wheat;
+    text-align: center;
+
+}
+.Profil_image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+}
