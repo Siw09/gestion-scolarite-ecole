@@ -1,10 +1,16 @@
+@font-face {
+    font-family: 'ubutu';
+    src: url(font/Poppins-Light.ttf);
+}
+
+
 .conexion-bg{
     background-color: #111b4536;
     
 }
 body{
     background-color: whitesmoke;
-
+font-family: 'ubutu';
 } 
 .conteneur-formulaire{
     border: 2px solid rgb(233, 223, 223);
@@ -53,12 +59,7 @@ button .accordion-item{
     width: 100% !important;
     color: red !important;
 
-}
 
-nav{
-    height: max-content;
-    background-color: white;
- 
 }
 
 table{
